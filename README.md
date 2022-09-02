@@ -1,6 +1,6 @@
-# CascadeLayersAngularDemo
+# Cascade Layers Angular Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+Demo that shows how to use CSS Cascade Layers in an Angular Project with SCSS and third party libraries. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
 ## Development server
 
