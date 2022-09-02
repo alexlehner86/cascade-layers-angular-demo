@@ -10,6 +10,7 @@
     // Material Components add some basic styling to a style tag in the head tag of the html document.
     // So far, I haven't found a way to force Angular to put them in a CSS Cascade Layer of my choice.
     @include meta.load-css('layers/thirdparty/material-theme');
+    @include meta.load-css('node_modules/leaflet/dist/leaflet.css');
 }
 
 body {
