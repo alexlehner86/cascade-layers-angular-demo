@@ -2,8 +2,8 @@ import * as L from 'leaflet';
 
 export const MAP_OPTIONS = {
     layers: [
-        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '...' })
+        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: 'Open Street Map' })
     ],
-    zoom: 5,
-    center: L.latLng(46.879966, -121.726909)
+    zoom: 12,
+    center: L.latLng(48.242176, 16.373819)
 };

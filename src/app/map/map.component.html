@@ -1,4 +1,6 @@
 <section
-     leaflet 
-     [leafletOptions]="mapOptions">
+    leaflet
+    [leafletOptions]="mapOptions"
+    (leafletMapReady)="onMapReady($event)">
+>
 </section>
