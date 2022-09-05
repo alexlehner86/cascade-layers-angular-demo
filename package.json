@@ -1,10 +1,12 @@
 {
   "name": "cascade-layers-angular-demo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:gh-pages": "ng build --base-href /cascade-layers-angular-demo/",
+    "deploy": "npx angular-cli-ghpages --dir=dist/cascade-layers-angular-demo",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
