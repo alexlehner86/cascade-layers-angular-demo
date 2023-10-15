@@ -1,6 +1,7 @@
 import { Component, ViewContainerRef } from '@angular/core';
 import * as L from 'leaflet';
-import { FavPlacePopupComponent } from 'src/app/fav-place-popup/fav-place-popup.component';
+import { FavPlacePopupComponent } from 'src/app/components/fav-place-popup/fav-place-popup.component';
+import { MoveMapControlComponent } from 'src/app/components/move-map-control/move-map-control.component';
 import { FavoritePlace } from 'src/app/models/fav-place.model';
 
 import { MAP_OPTIONS } from './map.config';
@@ -59,11 +60,19 @@ export class MapComponent {
     constructor(private _viewContainerRef: ViewContainerRef) { }
 
     public onMapReady(map: L.Map): void {
+        this.addMoveMapControl(map);
         this._favPlaces.forEach(favPlace => {
             const marker = L.marker(favPlace.coordinates, { icon: this._markerIcon });
             this.bindPopupToMarkerAndOpenOnClick(marker, favPlace);
             marker.addTo(map);
         })
+    }
+
+    private addMoveMapControl(map: L.Map): void {
+        const componentRef = this._viewContainerRef.createComponent(MoveMapControlComponent);
+        componentRef.instance.options.position = 'topright';
+        componentRef.instance.nativeElement = componentRef.location.nativeElement;
+        map.addControl(componentRef.instance);
     }
 
     private bindPopupToMarkerAndOpenOnClick(marker: L.Marker, data: FavoritePlace): void {
