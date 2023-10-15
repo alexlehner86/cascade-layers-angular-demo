@@ -22,6 +22,6 @@ body {
 }
 
 // This doesn't work because of Angular Material basic styling in the style tag inside of the head tag.
-.mat-raised-button {
+.mat-mdc-raised-button {
     cursor: grab;
 }
