@@ -4,14 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 
 import { AppComponent } from './app.component';
-import { MapComponent } from './map/map.component';
-import { FavPlacePopupComponent } from './fav-place-popup/fav-place-popup.component';
+import { MapComponent } from './components/map/map.component';
+import { FavPlacePopupComponent } from './components/fav-place-popup/fav-place-popup.component';
+import { MoveMapControlComponent } from './components/move-map-control/move-map-control.component';
 
 @NgModule({
     declarations: [
         AppComponent,
+        FavPlacePopupComponent,
         MapComponent,
-        FavPlacePopupComponent
+        MoveMapControlComponent
     ],
     imports: [
         BrowserModule,

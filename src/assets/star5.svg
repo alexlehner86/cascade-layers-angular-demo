@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="star5.svg"
+   id="svg4"
+   version="1.1"
+   width="24"
+   viewBox="0 -960 960 960"
+   height="24">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8">
+    <rect
+       id="rect845"
+       height="344.19512"
+       width="295.02439"
+       y="-561.95122"
+       x="332.4878" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg4"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="14.836289"
+     inkscape:cx="12"
+     inkscape:zoom="34.166667"
+     showgrid="false"
+     id="namedview6"
+     inkscape:window-height="991"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path2"
+     d="m233-80 65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Z"
+     stroke-width="40"
+     stroke="#605a00"
+     fill="#fdff00" />
+  <path
+     id="path853"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:480px;font-family:'Bell MT';-inkscape-font-specification:'Bell MT Bold';stroke-width:40"
+     d="m 423.65622,-483.71225 -9.60938,60 q 15.70313,-12.89062 32.57813,-19.21875 16.875,-6.5625 34.92187,-6.5625 33.98438,0 54.84375,21.32813 21.09375,21.32812 21.09375,52.5 0,39.375 -34.45312,70.3125 -34.21875,30.70312 -90.23438,30.70312 -36.79687,0 -56.25,-14.53125 -19.21875,-14.53125 -19.21875,-34.6875 0,-13.59375 9.375,-21.79687 9.375,-8.4375 22.03125,-8.4375 12.89063,0 20.39063,7.73437 7.73437,7.5 7.73437,17.10938 0,5.39062 -2.8125,14.29687 -2.34375,7.26563 -2.34375,10.78125 0,5.39063 5.625,10.07813 5.625,4.6875 17.34375,4.6875 31.40625,0 45.46875,-29.53125 14.0625,-29.76563 14.0625,-65.15625 0,-22.96875 -10.3125,-33.98438 -10.3125,-11.25 -23.4375,-11.25 -16.64062,0 -31.40625,12.65625 -15,12.65625 -19.45312,29.53125 -3.04688,11.48438 -8.20313,11.48438 -6.79687,0 -6.79687,-7.5 0,-5.15625 10.3125,-72.42188 10.54687,-67.5 14.0625,-79.45312 23.90625,6.32812 56.48437,6.32812 41.48438,0 59.76563,-25.54687 5.85937,-8.20313 9.375,-8.20313 7.5,0 7.5,6.5625 0,21.79688 -28.35938,47.34375 -28.35937,25.54688 -79.45312,25.54688 -7.26563,0 -20.625,-0.70313 z" />
+</svg>

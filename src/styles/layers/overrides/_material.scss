@@ -1,0 +1,9 @@
+// Overrides for move map control buttons
+app-move-map-control button.mdc-button.mat-mdc-raised-button {
+    height: var(--map-control-size);
+    width: var(--map-control-size);
+
+    &.rotate-icon .mdc-button__label {
+        rotate: 90deg;
+    }
+}
