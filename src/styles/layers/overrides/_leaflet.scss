@@ -1,5 +1,29 @@
+@use '@angular/material' as mat;
+
 a.leaflet-popup-close-button {
     color: chocolate;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.leaflet-control-zoom {
+    display: flex;
+    flex-direction: column;
+    gap: var(--map-control-gap);
+    border: none;
+
+    a[role="button"] {
+        @include mat.elevation(4);
+        display: grid;
+        place-content: center;
+        border-radius: var(--map-control-border-radius);
+        height: var(--map-control-size);
+        width: var(--map-control-size);
+
+        &:focus-visible {
+            color: var(--focus-visible-icon-color);
+            outline: var(--focus-visible-outline);
+            outline-offset: -0.125rem;
+        }
+    }
 }

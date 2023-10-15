@@ -1,4 +1,8 @@
 @use "sass:meta";
+// Material Components add some basic styling to a style tag in the head tag of the html document.
+// So far, I haven't found a way to force Angular to put them in a CSS Cascade Layer of my choice.
+@use "layers/thirdparty/material-theme";
+@use "layers/overrides/material";
 
 @layer reset, thirdparty, overrides;
 
@@ -7,9 +11,6 @@
 }
 
 @layer thirdparty {
-    // Material Components add some basic styling to a style tag in the head tag of the html document.
-    // So far, I haven't found a way to force Angular to put them in a CSS Cascade Layer of my choice.
-    @include meta.load-css("layers/thirdparty/material-theme");
     @include meta.load-css("node_modules/leaflet/dist/leaflet.css");
 }
 
@@ -17,11 +18,25 @@
     @include meta.load-css("layers/overrides/leaflet");
 }
 
-body {
-    padding: 1rem;
+:root {
+    --focus-visible-icon-color: rgb(213, 106, 29);
+    --focus-visible-outline: 0.188rem solid chocolate;
+    --map-control-border-radius: 0.25rem;
+    --map-control-gap: 0.5rem;
+    --map-control-size: 2.25rem;
 }
 
-// This doesn't work because of Angular Material basic styling in the style tag inside of the head tag.
-.mat-mdc-raised-button {
-    cursor: grab;
+html,
+body {
+    color: var(--black);
+    /* Defaulting to the system font of a particular operating system can boost performance
+       because the browser doesn’t have to download any font files, it’s using one it already had.
+       See: https://css-tricks.com/snippets/css/system-font-stack/ */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+        sans-serif;
+    line-height: 1.4;
+}
+
+body {
+    padding: 1rem;
 }

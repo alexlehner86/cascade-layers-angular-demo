@@ -1,1 +1,36 @@
-<p>move-map-control works!</p>
+<button
+    mat-raised-button
+    aria-label="Move map up"
+    title="Move map up"
+    (click)="moveMap(moveMapDirection.Up)"
+>
+    ▲
+</button>
+<div class="center-row">
+    <button
+        mat-raised-button
+        aria-label="Move map left"
+        title="Move map left"
+        class="rotate-icon"
+        (click)="moveMap(moveMapDirection.Left)"
+    >
+        ▼
+    </button>
+    <button
+        mat-raised-button
+        aria-label="Move map right"
+        title="Move map right"
+        class="rotate-icon"
+        (click)="moveMap(moveMapDirection.Right)"
+    >
+        ▲
+    </button>
+</div>
+<button
+    mat-raised-button
+    aria-label="Move map down"
+    title="Move map down"
+    (click)="moveMap(moveMapDirection.Down)"
+>
+    ▼
+</button>

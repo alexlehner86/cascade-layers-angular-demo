@@ -1,0 +1,25 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--map-control-gap);
+}
+
+.center-row {
+    display: flex;
+    gap: var(--map-control-gap);
+}
+
+button {
+    --mdc-typography-button-font-size: 1.3rem;
+    min-width: auto;
+    padding: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+
+    &:focus-visible {
+        color: var(--focus-visible-icon-color);
+        outline: var(--focus-visible-outline);
+        outline-offset: -0.125rem;
+    }
+}
